@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+    }
+   
+section{
+    background-image: url(./pexels-pixabay-164634.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width:100% ;
+    height: 100vh;
+}
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding:0 7px ;
+    width: 100%;
+    height: 50px;
+}
+
+.nav-bar:hover{
+    background-color: #000;
+}
+.nav-bar .logo img{
+width: 6rem;
+height: 30px;
+}
+.nav-bar .logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.span{
+    font-weight: bold;
+    font-size: 2rem;
+    color: darkorange;
+}
+.nav-items{
+    list-style: none
+}
+
+.nav-items li{
+display: inline-block;
+text-align: center;
+padding: 5px 20px;
+text-transform: uppercase;
+}
+.nav-items li {
+    color: orangered;
+    text-decoration: none;
+
+}
+
+.nav-items li:hover {
+    border-bottom: 2px solid darkorange;
+    color: darkorange;
+   
+}
+.reg-btn a{
+text-transform: uppercase;
+text-align: center;
+border-radius: 20px;
+background-color: darkorange;
+cursor: pointer;
+padding: 5px 20px;
+text-decoration: none;
+color: #fff;
+transition:bacground 0.5s;
+
+}
+.reg-btn a:hover{
+    background: none;
+    color: darkorange;
+    border-bottom: 2px solid darkorange;
+}
+
+
+/* section two */
+.home-content{
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    color: #fff;
+
+}
+ .home-content h3{ 
+  font-size: 3rem; 
+  font-weight: 800; 
+ } 
+.home-content p{ 
+min-width: 550px; 
+font-weight: 1.5rem; 
+padding-top: 7px; 
+padding-bottom: 7px; 
+} 
+
+/* .sliding-effect{  */
+ /* animation: sliding 1s linear forwards;  */
+/* opacity: 0;  */
+/*  */
+/* } */
+.btn-full{ 
+text-decoration: none; 
+color: #fff; 
+background-color: darkorange; 
+padding: 5px,20px ; 
+cursor: pointer; 
+border: radius 10px; 
+margin: 10px; 
+display: inline-block; 
+outline:none ; 
+font-size: 22px; 
+transition: 0.3s ease-in;
+
+}
+.btn-full:hover,  
+.btn-full:active{ 
+background-color: pink; 
+color: blue; 
+border-radius: 8px; 
+padding: auto 15px;
+transform: skew(1.1); 
+} 
+.sliding-effect{ 
+    /* animation: sliding 1s linear forwards; */
+    /* opacity: 0; */
+}
+
+.btn-full{
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
